@@ -1,5 +1,9 @@
 {
   "files": [],
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "types": ["jest", "node"]
+  },
   "references": [
     {
       "path": "./tsconfig.node.json"
