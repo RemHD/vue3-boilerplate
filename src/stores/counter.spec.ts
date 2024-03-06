@@ -6,5 +6,4 @@ describe('Basic jest test', () => {
   it('false should be false', () => {
     expect(false).toBe(false)
   })
-
 })

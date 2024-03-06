@@ -7,8 +7,8 @@ Ces conventions sont amenées à être modifiées via l'équipe.
 Les variables de type boolean sont préfixées par `is` :
 
 ```typescript
-const loading = false; //Exemple incorrect
-const isLoading = false; // Exemple correct
+const loading = false //Exemple incorrect
+const isLoading = false // Exemple correct
 ```
 
  ## Noms des components
@@ -33,3 +33,18 @@ export default {
 }
 ```
 
+## Accessibilité
+
+### Images
+- [ ] Ajouter l'attribut alt à chaque image
+
+### Hiérarchie de titres
+- [ ] Un tag h1 par page
+- [ ] Pas de saut hiérarchie h1 > h3 (préférer l'utilisation du CSS)
+
+
+### Formulaires
+
+### Media
+- [ ] Pas d'autoplay
+- [ ] Pouvoir appuyer sur la barre espace pour mettre en pause
