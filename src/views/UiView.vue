@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import CustomButtonComponent from '@/components/CustomButton.component.vue';
+import CustomForm from './../components/CustomForm.component.vue'
 </script>
 
 <template>
@@ -8,14 +8,21 @@ import CustomButtonComponent from '@/components/CustomButton.component.vue';
   </div>
   <h1 class="title mt-2 px-4">UI Page</h1>
 
-  <div class="container">
-    <div class="flex px-4 space-x-4">
-      <div class="subtitle">Buttons:</div>
-      <CustomButtonComponent type="primary" texte="Primary"/>
-      <CustomButtonComponent type="secondary" texte="Secondary"/>
-      <CustomButtonComponent texte="Disabled" :isDisabled="true"/>
+  <section>
+    <div class="custom-container">
+      <h2 class="subtitle">Components</h2>
+      <div class="flex space-x-4">
+        <h3>Buttons:</h3>
+        <CustomButton type="primary" texte="Primary" />
+        <CustomButton type="secondary" texte="Secondary" />
+        <CustomButton texte="Disabled" :isDisabled="true" />
+      </div>
+      <div class="mt-2">
+        <h3 class="mb-2">Forms:</h3>
+        <CustomForm/>
+      </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <style scoped></style>

@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.container {
+.custom-container {
   display: flex;
   flex-direction: column;
   padding: 1rem;
@@ -29,5 +29,5 @@
 }
 
 .custom-disabled-button:hover {
-  @apply bg-gray-500
+  @apply bg-gray-500;
 }
