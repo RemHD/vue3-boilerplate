@@ -13,11 +13,15 @@ const isLoading = false // Exemple correct
 
  ## Noms des components
 
-Respectez la casse en PascalCase pour les composants Vue.js, ce qui implique de commencer chaque mot par une majuscule et de ne pas inclure d'espaces entre les mots.
+Respectez la casse en `PascalCase` pour les composants Vue.js, ce qui implique de commencer chaque mot par une majuscule et de ne pas inclure d'espaces entre les mots.
 
  ```html
  <MyComponent />
  ```
+
+ Pour un composant : *CustomButton.component.vue*
+
+ Pour une page : *HomeView.vue*
 
  Utiliser deux mots pour éviter des conflits de nommage avec des mots réservés par Vue.
 

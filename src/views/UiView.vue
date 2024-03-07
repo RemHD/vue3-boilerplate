@@ -13,9 +13,9 @@ import CustomForm from './../components/CustomForm.component.vue'
       <h2 class="subtitle">Components</h2>
       <div class="flex space-x-4">
         <h3>Buttons:</h3>
-        <CustomButton type="primary" texte="Primary" />
-        <CustomButton type="secondary" texte="Secondary" />
-        <CustomButton texte="Disabled" :isDisabled="true" />
+        <CustomButton label="Primary" />
+        <CustomButton label="Secondary" :isPrimary="false" />
+        <CustomButton label="Disabled" :isDisabled="true" />
       </div>
       <div class="mt-2">
         <h3 class="mb-2">Forms:</h3>
