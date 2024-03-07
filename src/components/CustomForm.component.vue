@@ -45,9 +45,7 @@
           type="password"
           placeholder="******************"
         />
-        <p class="text-gray-600 text-xs italic">
-          Make it as long and as crazy as you'd like
-        </p>
+        <p class="text-gray-600 text-xs italic">Make it as long and as crazy as you'd like</p>
       </div>
     </div>
     <div class="flex flex-wrap -mx-3 mb-2">

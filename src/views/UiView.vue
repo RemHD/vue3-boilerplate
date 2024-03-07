@@ -19,7 +19,7 @@ import CustomForm from './../components/CustomForm.component.vue'
       </div>
       <div class="mt-2">
         <h3 class="mb-2">Forms:</h3>
-        <CustomForm/>
+        <CustomForm />
       </div>
     </div>
   </section>

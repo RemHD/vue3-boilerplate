@@ -11,7 +11,7 @@
             <a href="#" class="hover:text-gray-400 transition-colors duration-300">UI</a>
           </div>
         </div>
-        
+
         <!-- Burger Icon on the right for smaller screens -->
         <div class="flex md:hidden">
           <button @click="toggleMenu">
@@ -36,12 +36,11 @@
       </div>
     </div>
     <!-- Mobile Menu -->
-    <div :class="{ 'block': isOpen, 'hidden': !isOpen }" class="md:hidden">
+    <div :class="{ block: isOpen, hidden: !isOpen }" class="md:hidden">
       <a href="#" class="block px-4 py-2 hover:bg-gray-700 transition-colors duration-300">UI</a>
     </div>
   </nav>
 </template>
-
 
 <script setup lang="ts">
 import { ref } from 'vue'

@@ -8,7 +8,6 @@
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "test:unit": "npx jest src --testPathIgnorePatterns=/e2e/ --testRegex='\\.spec\\.ts$'",
-    "test:e2e": "playwright test",
     "build-only": "vite build",
     "type-check": "vue-tsc --build --force",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
@@ -22,7 +21,6 @@
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
-    "@playwright/test": "^1.41.1",
     "@rushstack/eslint-patch": "^1.3.3",
     "@tsconfig/node20": "^20.1.2",
     "@types/jest": "^29.5.12",
