@@ -1,8 +1,10 @@
 {
   "files": [],
   "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
     "esModuleInterop": true,
-    "types": ["jest", "node"]
+    "types": ["jest", "node", "cypress"]
   },
   "references": [
     {

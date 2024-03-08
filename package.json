@@ -8,6 +8,7 @@
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "test:unit": "npx jest src --testPathIgnorePatterns=/e2e/ --testRegex='\\.spec\\.ts$'",
+    "cypress:open": "cypress open",
     "build-only": "vite build",
     "type-check": "vue-tsc --build --force",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
@@ -23,6 +24,7 @@
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
+    "@cypress/vue": "^6.0.0",
     "@rushstack/eslint-patch": "^1.3.3",
     "@storybook/addon-essentials": "^7.6.17",
     "@storybook/addon-interactions": "^7.6.17",
@@ -39,6 +41,7 @@
     "@vue/eslint-config-typescript": "^12.0.0",
     "@vue/tsconfig": "^0.5.1",
     "autoprefixer": "^10.4.18",
+    "cypress": "^13.6.6",
     "eslint": "^8.49.0",
     "eslint-plugin-storybook": "^0.8.0",
     "eslint-plugin-vue": "^9.17.0",
@@ -54,7 +57,7 @@
     "ts-jest": "^29.1.2",
     "ts-node": "^10.9.2",
     "typescript": "~5.3.0",
-    "vite": "^5.0.11",
+    "vite": "^5.1.5",
     "vue-tsc": "^1.8.27"
   }
 }

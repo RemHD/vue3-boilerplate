@@ -1,11 +1,11 @@
 {
   "extends": "@vue/tsconfig/tsconfig.dom.json",
-  "include": ["env.d.ts", "src/**/*.ts", "src/**/*.vue"],
+  "include": ["env.d.ts", "src/**/*.ts", "src/**/*.vue", "cypress"],
   "exclude": ["src/**/__tests__/*"],
   "compilerOptions": {
     "composite": true,
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
-    "types": ["jest", "node"],
+    "types": ["jest", "node", "cypress"],
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
